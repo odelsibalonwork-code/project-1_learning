@@ -1,0 +1,27 @@
+{
+  "name": "vohn-creative-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "video:studio": "remotion studio video/src/index.tsx",
+    "video:render": "remotion render video/src/index.tsx SocialPromo out/social-promo.mp4"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "motion": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest"
+  },
+  "devDependencies": {
+    "@remotion/cli": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

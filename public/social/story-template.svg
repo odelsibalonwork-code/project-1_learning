@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#171515"/>
+  <circle cx="830" cy="610" r="370" fill="#ff593f"/>
+  <circle cx="830" cy="610" r="260" fill="#d6ff52"/>
+  <circle cx="830" cy="610" r="150" fill="#c9a9ff"/>
+  <path d="M0 1110 1080 880v1040H0z" fill="#f5f2ec"/>
+  <text x="72" y="115" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="5" fill="#f5f2ec">VOHN STUDIO  /  STORY</text>
+  <text x="72" y="1260" font-family="Arial,sans-serif" font-size="120" font-weight="800" letter-spacing="-8" fill="#171515">MAKE</text>
+  <text x="72" y="1390" font-family="Arial,sans-serif" font-size="120" font-weight="800" letter-spacing="-8" fill="#171515">SOMETHING</text>
+  <text x="72" y="1520" font-family="Arial,sans-serif" font-size="120" font-weight="800" letter-spacing="-8" fill="#ff593f">MATTER.</text>
+  <text x="72" y="1640" font-family="Arial,sans-serif" font-size="32" fill="#615c57">A strong idea deserves a bold first frame.</text>
+  <rect x="72" y="1740" width="400" height="82" rx="41" fill="#171515"/>
+  <text x="272" y="1793" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#d6ff52">TELL YOUR STORY  ↗</text>
+  <text x="72" y="1880" font-family="Arial,sans-serif" font-size="20" letter-spacing="3" fill="#aaa39a">YOUR HANDLE  ·  YOUR LINK</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#f5f2ec"/>
+  <path d="M0 0h1080v270H0z" fill="#d6ff52"/>
+  <circle cx="830" cy="455" r="270" fill="#c9a9ff"/>
+  <circle cx="830" cy="455" r="164" fill="#ff593f"/>
+  <circle cx="830" cy="455" r="82" fill="#d6ff52"/>
+  <path d="M0 828h1080v252H0z" fill="#171515"/>
+  <text x="72" y="97" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#171515">VOHN STUDIO  /  SOCIAL CAMPAIGN</text>
+  <text x="72" y="420" font-family="Arial,sans-serif" font-size="118" font-weight="800" letter-spacing="-7" fill="#171515">MAKE YOUR</text>
+  <text x="72" y="550" font-family="Arial,sans-serif" font-size="118" font-weight="800" letter-spacing="-7" fill="#171515">NEXT MOVE</text>
+  <text x="72" y="680" font-family="Arial,sans-serif" font-size="118" font-weight="800" letter-spacing="-7" fill="#ff593f">IMPOSSIBLE</text>
+  <text x="72" y="787" font-family="Arial,sans-serif" font-size="118" font-weight="800" letter-spacing="-7" fill="#ff593f">TO IGNORE.</text>
+  <text x="72" y="918" font-family="Arial,sans-serif" font-size="28" font-weight="500" letter-spacing="2" fill="#f5f2ec">BRAND WORLDS  ·  DIGITAL  ·  MOTION</text>
+  <text x="72" y="1000" font-family="Arial,sans-serif" font-size="22" letter-spacing="3" fill="#aaa39a">YOUR IDEA GOES HERE  ↗</text>
+  <text x="1008" y="1000" text-anchor="end" font-family="Arial,sans-serif" font-size="22" fill="#d6ff52">01 / 03</text>
+</svg>
