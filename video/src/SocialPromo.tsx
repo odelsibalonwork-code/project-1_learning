@@ -39,7 +39,7 @@ function Scene({
       style={{
         background,
         color: colors.ink,
-        fontFamily: "Arial, Helvetica, sans-serif",
+        fontFamily: "Space Grotesk Variable, Arial, Helvetica, sans-serif",
         overflow: "hidden",
         justifyContent: "space-between",
         padding: 78,

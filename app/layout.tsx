@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import "@fontsource-variable/space-grotesk/wght.css";
+import "@fontsource/dm-mono/latin-400.css";
+import "@fontsource/dm-mono/latin-500.css";
 import "./globals.css";
 
 export const metadata: Metadata = {

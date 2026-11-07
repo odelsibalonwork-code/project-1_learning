@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
-:root{--ink:#171515;--paper:#f5f2ec;--coral:#ff593f;--lime:#d6ff52;--muted:#8b8782;--line:rgba(23,21,21,.15);--display:"Space Grotesk",Arial,sans-serif;--mono:"DM Mono",monospace}
+:root{--ink:#171515;--paper:#f5f2ec;--coral:#ff593f;--lime:#d6ff52;--muted:#8b8782;--line:rgba(23,21,21,.15);--display:"Space Grotesk Variable",Arial,sans-serif;--mono:"DM Mono",monospace}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--display)}
