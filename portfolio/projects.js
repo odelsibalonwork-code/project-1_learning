@@ -3,288 +3,314 @@ window.VOHN_PROJECTS = [
     "id": "drive-design-1",
     "title": "Modern home / Search campaign",
     "category": "graphics",
-    "group": "AI-assisted concept campaign",
+    "group": "Graphic design using AI",
     "description": "A concept campaign graphic from the Vohn Creative visual collection, created with AI-assisted design.",
     "poster": "assets/drive-design-1.webp",
     "src": "assets/drive-design-1-full.webp",
     "external": "https://drive.google.com/file/d/1LKYQHLegr4DjU8pg082P1aWpaBSUMo43/view",
-    "role": "AI-assisted concept design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "new-perfume",
     "title": "Perfume / AI product story",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "AI-assisted product storytelling from the Vohn Creative sample collection.",
     "poster": "assets/new-perfume.webp",
     "external": "https://drive.google.com/file/d/1gu19ySl9uuCh-n3nk_8oxCe8uRBhK1yS/view",
     "embed": "https://drive.google.com/file/d/1gu19ySl9uuCh-n3nk_8oxCe8uRBhK1yS/preview",
-    "role": "AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "drive-design-3",
     "title": "Loose-leash / Training in the park",
     "category": "graphics",
-    "group": "AI-assisted concept campaign",
+    "group": "Graphic design using AI",
     "description": "A concept campaign graphic from the Vohn Creative visual collection, created with AI-assisted design.",
     "poster": "assets/drive-design-3.webp",
     "src": "assets/drive-design-3-full.webp",
     "external": "https://drive.google.com/file/d/1zO-Yhsnud6FeBsW-xKO9QKNCChoUtApl/view",
-    "role": "AI-assisted concept design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "reels-2",
     "title": "Instagram Reel 25",
     "category": "video",
-    "group": "Reels & short-form",
+    "group": "Instagram reels",
     "description": "Short-form video samples for a social-first audience.",
     "poster": "assets/reels-2.webp",
     "external": "https://drive.google.com/file/d/1740_wQvOkveARo6QsfEftww9m5Jl3poT/view",
     "embed": "https://drive.google.com/file/d/1740_wQvOkveARo6QsfEftww9m5Jl3poT/preview",
-    "role": "Video editing / Reels & short-form"
+    "role": "Instagram reels",
+    "collection": "instagram-reels"
   },
   {
     "id": "motion-1",
     "title": "Jacquard",
     "category": "video",
-    "group": "Motion graphics",
-    "description": "Story-led motion graphics and visual explainers. Explore three examples of rhythm, animated elements, and storytelling.",
+    "group": "Motion graphics - IG reels",
+    "description": "Story-led motion graphics and visual explainers shaped for Instagram reels.",
     "poster": "assets/motion-1.webp",
     "external": "https://drive.google.com/file/d/19xUzcIwvH_Q4kl188BJkbkewOo3azYlK/view",
     "embed": "https://drive.google.com/file/d/19xUzcIwvH_Q4kl188BJkbkewOo3azYlK/preview",
-    "role": "Video editing / Motion graphics"
+    "role": "Motion graphics - IG reels",
+    "collection": "motion-reels"
   },
   {
     "id": "design-3",
     "title": "Dewy Daily Glow Serum poster",
     "category": "graphics",
-    "group": "AI-assisted graphic design",
+    "group": "Graphic design using AI",
     "description": "Product, fitness, and real estate graphics created with AI-assisted design.",
     "poster": "assets/design-3.webp",
     "external": "https://drive.google.com/file/d/1jniM8i8K4_e3tB0GPOuRnmDRVEukWYlg/view",
     "src": "assets/design-3-full.webp",
-    "role": "AI-assisted graphic design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "aiugc-1",
     "title": "AI Product UGC 01",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "Explore AI-assisted creator-style product videos.",
     "poster": "assets/aiugc-1.webp",
     "external": "https://drive.google.com/file/d/1SiInCsRV903AjyxBYW5WBIn3l06AueZK/view",
     "embed": "https://drive.google.com/file/d/1SiInCsRV903AjyxBYW5WBIn3l06AueZK/preview",
-    "role": "Video editing / AI UGC & product ads",
-    "src": "assets/hero-reel.mp4"
+    "role": "AI videos - UGC",
+    "src": "assets/hero-reel.mp4",
+    "collection": "ai-ugc"
   },
   {
     "id": "design-2",
     "title": "IRON PULSE FITNESS poster",
     "category": "graphics",
-    "group": "AI-assisted graphic design",
+    "group": "Graphic design using AI",
     "description": "Product, fitness, and real estate graphics created with AI-assisted design.",
     "poster": "assets/design-2.webp",
     "external": "https://drive.google.com/file/d/1m95f-cJoZcV_JeWR8iaNvZenWlxgZm7B/view",
     "src": "assets/design-2-full.webp",
-    "role": "AI-assisted graphic design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "ugc-1",
     "title": "UGC editing sample",
     "category": "video",
-    "group": "UGC & creator ads",
+    "group": "UGC",
     "description": "Creator and customer video edits for brands.",
     "poster": "assets/ugc-1.webp",
     "external": "https://drive.google.com/file/d/1U4T14XrR0YeSWtDvNunYapPJd8ti-leZ/view",
     "embed": "https://drive.google.com/file/d/1U4T14XrR0YeSWtDvNunYapPJd8ti-leZ/preview",
-    "role": "Video editing / UGC & creator ads"
+    "role": "UGC",
+    "collection": "ugc"
   },
   {
     "id": "vsl-1",
     "title": "VSL editing sample 01",
     "category": "video",
-    "group": "Video sales letters",
+    "group": "VSL",
     "description": "Video sales letter samples with a focus on message structure, pacing, and clear next steps.",
     "poster": "assets/vsl-1.webp",
     "external": "https://drive.google.com/file/d/1eC_PO-q06x7sWhR-etlRXfGdn9102Hd9/view",
     "embed": "https://drive.google.com/file/d/1eC_PO-q06x7sWhR-etlRXfGdn9102Hd9/preview",
-    "role": "Video editing / Video sales letters"
+    "role": "VSL",
+    "collection": "vsl"
   },
   {
     "id": "design-4",
     "title": "Ember travel mug product poster",
     "category": "graphics",
-    "group": "AI-assisted graphic design",
+    "group": "Graphic design using AI",
     "description": "Product, fitness, and real estate graphics created with AI-assisted design.",
     "poster": "assets/design-4.webp",
     "external": "https://drive.google.com/file/d/17qxFQdIiD8guJVCF3sB9pdOf91x_FK3Q/view",
     "src": "assets/design-4-full.webp",
-    "role": "AI-assisted graphic design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "reels-1",
     "title": "Instagram Reel 27",
     "category": "video",
-    "group": "Reels & short-form",
+    "group": "Instagram reels",
     "description": "Short-form video samples for a social-first audience.",
     "poster": "assets/reels-1.webp",
     "external": "https://drive.google.com/file/d/1Igfj3yZYUrQkR460a2ZxaAj5QXDvf7Ia/view",
     "embed": "https://drive.google.com/file/d/1Igfj3yZYUrQkR460a2ZxaAj5QXDvf7Ia/preview",
-    "role": "Video editing / Reels & short-form"
+    "role": "Instagram reels",
+    "collection": "instagram-reels"
   },
   {
     "id": "design-1",
     "title": "Luxury real estate property flyer",
     "category": "graphics",
-    "group": "AI-assisted graphic design",
+    "group": "Graphic design using AI",
     "description": "Product, fitness, and real estate graphics created with AI-assisted design.",
     "poster": "assets/design-1.webp",
     "external": "https://drive.google.com/file/d/1JejSekuVl0O4BcJ6K05rQOEZKlUq7P0v/view",
     "src": "assets/design-1-full.webp",
-    "role": "AI-assisted graphic design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "aiugc-2",
     "title": "AI Product UGC 02",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "Explore AI-assisted creator-style product videos.",
     "poster": "assets/aiugc-2.webp",
     "external": "https://drive.google.com/file/d/1sZmg7oHfD0kJkxxpsoDMcyL1P7EwO7sP/view",
     "embed": "https://drive.google.com/file/d/1sZmg7oHfD0kJkxxpsoDMcyL1P7EwO7sP/preview",
-    "role": "Video editing / AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "aiugc-3",
     "title": "AI Product UGC 03",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "Explore AI-assisted creator-style product videos.",
     "poster": "assets/aiugc-3.webp",
     "external": "https://drive.google.com/file/d/1bbrgqgevdqWtNffzaZhMqv8Dh2Tia-SB/view",
     "embed": "https://drive.google.com/file/d/1bbrgqgevdqWtNffzaZhMqv8Dh2Tia-SB/preview",
-    "role": "Video editing / AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "aiugc-4",
     "title": "AI Product UGC 04",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "Explore AI-assisted creator-style product videos.",
     "poster": "assets/aiugc-4.webp",
     "external": "https://drive.google.com/file/d/1pMHYnKOXHk4aL3w4EfevuqFkX_fm-Nxd/view",
     "embed": "https://drive.google.com/file/d/1pMHYnKOXHk4aL3w4EfevuqFkX_fm-Nxd/preview",
-    "role": "Video editing / AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "ugc-2",
     "title": "Happy Clients / Video 6",
     "category": "video",
-    "group": "UGC & creator ads",
+    "group": "UGC",
     "description": "Creator and customer video edits for brands.",
     "poster": "assets/ugc-2.webp",
     "external": "https://drive.google.com/file/d/1AZus0aLsLiv11R9Tx5_onnkH5M6MpKuv/view",
     "embed": "https://drive.google.com/file/d/1AZus0aLsLiv11R9Tx5_onnkH5M6MpKuv/preview",
-    "role": "Video editing / UGC & creator ads"
+    "role": "UGC",
+    "collection": "ugc"
   },
   {
     "id": "ugc-3",
     "title": "Creator stitch / Video 3",
     "category": "video",
-    "group": "UGC & creator ads",
+    "group": "UGC",
     "description": "Creator and customer video edits for brands.",
     "poster": "assets/ugc-3.webp",
     "external": "https://drive.google.com/file/d/1jPhTwNJd_XPF8bf0kl6ZcT3ZHAOcEG5G/view",
     "embed": "https://drive.google.com/file/d/1jPhTwNJd_XPF8bf0kl6ZcT3ZHAOcEG5G/preview",
-    "role": "Video editing / UGC & creator ads"
+    "role": "UGC",
+    "collection": "ugc"
   },
   {
     "id": "reels-3",
     "title": "Instagram Reel 24",
     "category": "video",
-    "group": "Reels & short-form",
+    "group": "Instagram reels",
     "description": "Short-form video samples for a social-first audience.",
     "poster": "assets/reels-3.webp",
     "external": "https://drive.google.com/file/d/1LeDEAd2gOJvYMp2qWvxtxuQ4PALo5wzp/view",
     "embed": "https://drive.google.com/file/d/1LeDEAd2gOJvYMp2qWvxtxuQ4PALo5wzp/preview",
-    "role": "Video editing / Reels & short-form"
+    "role": "Instagram reels",
+    "collection": "instagram-reels"
   },
   {
     "id": "motion-2",
     "title": "Sugihara",
     "category": "video",
-    "group": "Motion graphics",
-    "description": "Story-led motion graphics and visual explainers. Explore three examples of rhythm, animated elements, and storytelling.",
+    "group": "Motion graphics - IG reels",
+    "description": "Story-led motion graphics and visual explainers shaped for Instagram reels.",
     "poster": "assets/motion-2.webp",
     "external": "https://drive.google.com/file/d/1c4PWU8L4K7ETnS2vKvzY--DWPAA2kHOO/view",
     "embed": "https://drive.google.com/file/d/1c4PWU8L4K7ETnS2vKvzY--DWPAA2kHOO/preview",
-    "role": "Video editing / Motion graphics"
+    "role": "Motion graphics - IG reels",
+    "collection": "motion-reels"
   },
   {
     "id": "motion-3",
     "title": "Frederick Douglass",
     "category": "video",
-    "group": "Motion graphics",
-    "description": "Story-led motion graphics and visual explainers. Explore three examples of rhythm, animated elements, and storytelling.",
+    "group": "Motion graphics - IG reels",
+    "description": "Story-led motion graphics and visual explainers shaped for Instagram reels.",
     "poster": "assets/motion-3.webp",
     "external": "https://drive.google.com/file/d/1hXhhkk0BQZIMFsmrvLMJwOJEsGqBWLV_/view",
     "embed": "https://drive.google.com/file/d/1hXhhkk0BQZIMFsmrvLMJwOJEsGqBWLV_/preview",
-    "role": "Video editing / Motion graphics"
+    "role": "Motion graphics - IG reels",
+    "collection": "motion-reels"
   },
   {
     "id": "vsl-2",
     "title": "VSL editing sample 02",
     "category": "video",
-    "group": "Video sales letters",
+    "group": "VSL",
     "description": "Video sales letter samples with a focus on message structure, pacing, and clear next steps.",
     "poster": "assets/vsl-2.webp",
     "external": "https://drive.google.com/file/d/1eJmhbsCufPP7ZlJNvDU964hmaxnfl1l9/view",
     "embed": "https://drive.google.com/file/d/1eJmhbsCufPP7ZlJNvDU964hmaxnfl1l9/preview",
-    "role": "Video editing / Video sales letters"
+    "role": "VSL",
+    "collection": "vsl"
   },
   {
     "id": "vsl-3",
     "title": "VSL editing sample 03",
     "category": "video",
-    "group": "Video sales letters",
+    "group": "VSL",
     "description": "Video sales letter samples with a focus on message structure, pacing, and clear next steps.",
     "poster": "assets/vsl-3.webp",
     "external": "https://drive.google.com/file/d/1voUUhS4krs5VVyF_m7Z74k7ZW3gUT77p/view",
     "embed": "https://drive.google.com/file/d/1voUUhS4krs5VVyF_m7Z74k7ZW3gUT77p/preview",
-    "role": "Video editing / Video sales letters"
+    "role": "VSL",
+    "collection": "vsl"
   },
   {
     "id": "new-farmhouse",
     "title": "Cedar & Stone / Farmhouse",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "AI-assisted product storytelling from the Vohn Creative sample collection.",
     "poster": "assets/new-farmhouse.webp",
     "external": "https://drive.google.com/file/d/1OcRSiRENHRvQopP7lKArltzVdDP7rr-z/view",
     "embed": "https://drive.google.com/file/d/1OcRSiRENHRvQopP7lKArltzVdDP7rr-z/preview",
-    "role": "AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "new-clinique",
     "title": "Clinique Moisture Surge / AI study",
     "category": "video",
-    "group": "AI UGC & product ads",
+    "group": "AI videos - UGC",
     "description": "AI-assisted product storytelling from the Vohn Creative sample collection.",
     "poster": "assets/new-clinique.webp",
     "external": "https://drive.google.com/file/d/1kPJUohQDT00e_NUAMboJgq9ZtkV7_nyU/view",
     "embed": "https://drive.google.com/file/d/1kPJUohQDT00e_NUAMboJgq9ZtkV7_nyU/preview",
-    "role": "AI UGC & product ads"
+    "role": "AI videos - UGC",
+    "collection": "ai-ugc"
   },
   {
     "id": "new-rorschach",
     "title": "Rorschach / Motion story",
     "category": "video",
-    "group": "Motion graphics",
-    "description": "A motion graphics storytelling sample.",
+    "group": "Motion graphics - IG reels",
+    "description": "Story-led motion graphics and visual explainers shaped for Instagram reels.",
     "poster": "assets/new-rorschach.webp",
     "external": "https://drive.google.com/file/d/1kxFh136UPq_EeBFmu0XaFdyB5UXtSoLF/view",
     "embed": "https://drive.google.com/file/d/1kxFh136UPq_EeBFmu0XaFdyB5UXtSoLF/preview",
-    "role": "Motion graphics"
+    "role": "Motion graphics - IG reels",
+    "collection": "motion-reels"
   },
   {
     "id": "new-longform",
@@ -295,28 +321,31 @@ window.VOHN_PROJECTS = [
     "poster": "assets/new-longform.webp",
     "external": "https://drive.google.com/file/d/1811R8BJkeGGAsyjtUuWDdAnEVTVc9nGv/view",
     "embed": "https://drive.google.com/file/d/1811R8BJkeGGAsyjtUuWDdAnEVTVc9nGv/preview",
-    "role": "Long-form video"
+    "role": "Long-form video",
+    "collection": "additional"
   },
   {
     "id": "drive-design-2",
     "title": "Curious minds / Online training",
     "category": "graphics",
-    "group": "AI-assisted concept campaign",
+    "group": "Graphic design using AI",
     "description": "A concept campaign graphic from the Vohn Creative visual collection, created with AI-assisted design.",
     "poster": "assets/drive-design-2.webp",
     "src": "assets/drive-design-2-full.webp",
     "external": "https://drive.google.com/file/d/17rKszSNlaw3vRrhoh3oApypquUrxpp6B/view",
-    "role": "AI-assisted concept design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   },
   {
     "id": "drive-design-4",
     "title": "Keep curious / Keep learning",
     "category": "graphics",
-    "group": "AI-assisted concept campaign",
+    "group": "Graphic design using AI",
     "description": "A concept campaign graphic from the Vohn Creative visual collection, created with AI-assisted design.",
     "poster": "assets/drive-design-4.webp",
     "src": "assets/drive-design-4-full.webp",
     "external": "https://drive.google.com/file/d/1zc-mrxgfro5zPcQWC8RpVFLfIhdpSoSq/view",
-    "role": "AI-assisted concept design"
+    "role": "Graphic design using AI",
+    "collection": "graphics"
   }
 ];

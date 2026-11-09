@@ -31,50 +31,104 @@
     }
 
     const filterButtons = [...document.querySelectorAll('[data-filter]')];
-    const projectCards = [...document.querySelectorAll('article[data-category]')];
     const filterStatus = document.querySelector('#filter-status');
-    const showMore = document.querySelector('#show-more');
+    const collectionLabels = {
+      graphics: 'Graphic design using AI',
+      'ai-ugc': 'AI videos - UGC',
+      'instagram-reels': 'Instagram reels',
+      'motion-reels': 'Motion graphics - IG reels',
+      ugc: 'UGC',
+      vsl: 'VSL',
+    };
+    const collections = [...document.querySelectorAll('[data-collection-section]')].map(section => {
+      const slug = section.dataset.collectionSection;
+      const cards = [...section.querySelectorAll('article[data-collection]')]
+        .filter(card => card.dataset.collection === slug);
+      const button = [...section.querySelectorAll('[data-show-collection]')]
+        .find(control => control.dataset.showCollection === slug);
+      const count = [...section.querySelectorAll('[data-collection-count]')]
+        .find(element => element.dataset.collectionCount === slug);
+      const grid = section.querySelector('.work-grid');
+      if (button && grid) {
+        if (!grid.id) grid.id = `collection-grid-${slug}`;
+        button.setAttribute('aria-controls', grid.id);
+      }
+      return { slug, section, cards, button, count, expanded: false };
+    });
+    const additionalWork = document.querySelector('#additional-work');
+    const additionalCards = additionalWork
+      ? [...additionalWork.querySelectorAll('article[data-collection="additional"]')]
+      : [];
+    additionalCards.forEach(card => { card.hidden = false; });
     let activeFilter = 'all';
-    let showAllProjects = false;
 
-    function renderProjects() {
-      const matchingCards = projectCards.filter(card => activeFilter === 'all' || card.dataset.category === activeFilter);
-      const visibleCards = new Set(showAllProjects ? matchingCards : matchingCards.slice(0, 6));
-      projectCards.forEach(card => {
-        card.hidden = !visibleCards.has(card);
+    function updateFilterStatus() {
+      let visibleCards = 0;
+      let visibleCategories = 0;
+      collections.forEach(collection => {
+        if (collection.section.hidden || !collection.cards.length) return;
+        visibleCategories += 1;
+        visibleCards += collection.cards.filter(card => !card.hidden).length;
+      });
+      if (additionalWork && !additionalWork.hidden && additionalWork.open && additionalCards.length) {
+        visibleCards += additionalCards.filter(card => !card.hidden).length;
+        visibleCategories += 1;
+      }
+      if (filterStatus) {
+        const selectedLabel = activeFilter === 'all' ? 'All work' : collectionLabels[activeFilter];
+        filterStatus.textContent = `Showing ${visibleCards} sample ${visibleCards === 1 ? 'card' : 'cards'} in ${visibleCategories} ${visibleCategories === 1 ? 'category' : 'categories'} — ${selectedLabel}.`;
+      }
+    }
+
+    function renderCollections() {
+      collections.forEach(collection => {
+        const isVisible = activeFilter === 'all' || collection.slug === activeFilter;
+        const visibleCount = collection.expanded ? collection.cards.length : Math.min(4, collection.cards.length);
+        const mediaLabel = collection.slug === 'graphics' ? 'graphics' : 'videos';
+        collection.section.hidden = !isVisible;
+        collection.cards.forEach((card, index) => { card.hidden = index >= visibleCount; });
+        if (collection.count) {
+          collection.count.textContent = `${visibleCount} of ${collection.cards.length} ${mediaLabel}`;
+        }
+        if (collection.button) {
+          collection.button.hidden = collection.cards.length <= 4;
+          collection.button.setAttribute('aria-expanded', String(collection.expanded));
+          collection.button.textContent = collection.expanded
+            ? `Show fewer ${mediaLabel}`
+            : `View all ${collection.cards.length} ${mediaLabel}`;
+        }
       });
       filterButtons.forEach(button => {
         button.setAttribute('aria-pressed', String(button.dataset.filter === activeFilter));
       });
-      const projectLabel = activeFilter === 'video' ? 'videos' : activeFilter === 'graphics' ? 'graphics' : 'projects';
-      if (filterStatus) {
-        filterStatus.textContent = `Showing ${visibleCards.size} of ${matchingCards.length} ${projectLabel}.`;
-      }
-      if (showMore) {
-        showMore.hidden = visibleCards.size >= matchingCards.length;
-        showMore.textContent = `View all ${matchingCards.length} ${projectLabel}`;
-      }
-      return matchingCards;
+      if (additionalWork) additionalWork.hidden = activeFilter !== 'all';
+      updateFilterStatus();
     }
 
     function applyFilter(filter) {
-      activeFilter = filter;
-      showAllProjects = false;
-      renderProjects();
+      activeFilter = filter === 'all' || Object.hasOwn(collectionLabels, filter) ? filter : 'all';
+      collections.forEach(collection => { collection.expanded = false; });
+      if (additionalWork) additionalWork.open = false;
+      renderCollections();
     }
 
     filterButtons.forEach(button => {
       button.addEventListener('click', () => applyFilter(button.dataset.filter || 'all'));
     });
-    showMore?.addEventListener('click', () => {
-      showAllProjects = true;
-      const matchingCards = renderProjects();
-      matchingCards[6]?.querySelector('button, a')?.focus({ preventScroll: true });
+    collections.forEach(collection => {
+      collection.button?.addEventListener('click', () => {
+        collection.expanded = !collection.expanded;
+        renderCollections();
+        if (collection.expanded) {
+          collection.cards[4]?.querySelector('[data-project], button, a')?.focus({ preventScroll: true });
+        } else {
+          collection.button.focus({ preventScroll: true });
+        }
+      });
     });
-    if (projectCards.length) {
-      const initialFilter = filterButtons.find(button => button.getAttribute('aria-pressed') === 'true');
-      applyFilter(initialFilter?.dataset.filter || 'all');
-    }
+    additionalWork?.addEventListener('toggle', updateFilterStatus);
+    const initialFilter = filterButtons.find(button => button.getAttribute('aria-pressed') === 'true');
+    applyFilter(initialFilter?.dataset.filter || 'all');
 
     const projectDialog = document.querySelector('#project-dialog');
     const projectContent = document.querySelector('#project-content');

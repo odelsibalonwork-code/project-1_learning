@@ -14,11 +14,26 @@ The palette uses the existing portfolio's graphite and lavender because no separ
 
 ## Behavior
 
-The hero uses a silent, optimized copy of the owner's AI Product UGC 01 video. Scroll controls its time. Reduced motion and Pause motion keep a static poster; hero video is requested only after scrolling. Work filters and a View all control expose all 29 projects. Project dialogs use native video or original Drive previews and always include a full-preview fallback link. Graphics use local WebP exports. The contact form opens a draft in the visitor's email application and does not submit or store inquiries.
+The hero uses a silent, optimized copy of the owner's AI Product UGC 01 video. Scroll controls its time. Reduced motion and Pause motion keep a static poster; hero video is requested only after scrolling.
+
+Selected work is organized into six named collections. The default view shows 21 samples across those collections:
+
+| Collection | Visible initially | Total |
+| --- | ---: | ---: |
+| Graphic design using AI | 4 | 8 |
+| AI videos - UGC | 4 | 7 |
+| Instagram reels | 3 | 3 |
+| Motion graphics - IG reels | 4 | 4 |
+| UGC | 3 | 3 |
+| VSL | 3 | 3 |
+
+All work and six category filters control which collections are displayed. Graphics and AI videos each have their own expand/collapse control. A separate Additional work disclosure retains the long-form sample, so all 29 original projects remain available.
+
+Project dialogs use native video or original Drive previews and always include a full-preview fallback link. Graphics use local WebP exports. The contact form opens a draft in the visitor's email application and does not submit or store inquiries.
 
 ## Validation
 
-JavaScript syntax, local asset references, project-data consistency, HTML identities and media budgets were checked. Browser rendering and interaction QA were not available because this managed environment did not expose the required browser preview tool.
+JavaScript syntax, local asset references, project-data consistency, HTML identities and media budgets were checked. Browser checks at 1440px desktop and 375px mobile verified all six category filters, collection expand/collapse, image/native-video/Drive-iframe dialogs, keyboard close and focus restoration. No horizontal overflow or JavaScript errors were observed.
 
 ## Fonts
 
